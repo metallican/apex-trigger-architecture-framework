@@ -1,6 +1,4 @@
-/**
-* @author Hari Krishnan
-* @date 07/16/2013
+/** 
 * @description Defines the interface for the trigger dispatching architecture.
 */
 public interface ITriggerDispatcher {
