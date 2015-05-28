@@ -1,6 +1,4 @@
-/**
-* @author Hari Krishnan
-* @date 07/16/2013
+/** 
 * @description This class holds the trigger parameters.
 */
 public class TriggerParameters {
