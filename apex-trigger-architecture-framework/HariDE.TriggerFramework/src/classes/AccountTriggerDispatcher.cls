@@ -1,6 +1,4 @@
-/**
-* @author Hari Krishnan
-* @date 07/17/2013
+/** 
 * @description This class extends the TriggerDispatcherBase to provide the dispatching functionality for the trigger actions 
 *				on the Account object. The event handlers support allowing and preventing actions for reentrant scenarios. 
 *				This is controlled by the flag isBeforeXxxxx and isAfterXxxxx member variables. These variables need to be set
