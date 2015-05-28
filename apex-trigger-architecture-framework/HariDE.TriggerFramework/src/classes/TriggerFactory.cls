@@ -1,6 +1,4 @@
-/**
-* @author Hari Krishnan
-* @date 07/17/2013
+/** 
 * @description This factory creates the correct dispatcher and dispatches the trigger event(s) to the appropriate 
 *				event handler(s). The dispatchers are automatically created using the Type API, hence dispatcher 
 *				registration is not required for each dispatchers.
