@@ -11,9 +11,7 @@ public class AccountTriggerDispatcher extends TriggerDispatcherBase {
 	private static Boolean isAfterInsertProcessing = false;
 	private static Boolean isAfterUpdateProcessing = false; 
 	
-	/** 
-	* @author Hari Krishnan
-	* @date 07/17/2013
+	/**  
 	* @description Called by the trigger framework to carry out the actions before the records are inserted. If there is an
 	*				existing call running on the same context, the rentrant call will utilize the handler that was created
 	*				in the original call.
@@ -28,9 +26,7 @@ public class AccountTriggerDispatcher extends TriggerDispatcherBase {
 		else execute(null, tp, TriggerParameters.TriggerEvent.beforeInsert);
 	}
 	
-	/** 
-	* @author Hari Krishnan
-	* @date 06/20/2013
+	/**  
 	* @description Called by the trigger framework to carry out the actions before the records are updated. If there is an
 	*				existing call running on the same context, the rentrant call will utilize the handler that was created
 	*				in the original call.
@@ -45,9 +41,7 @@ public class AccountTriggerDispatcher extends TriggerDispatcherBase {
 		else execute(null, tp, TriggerParameters.TriggerEvent.beforeUpdate);
 	}
 
-	/** 
-	* @author Hari Krishnan
-	* @date 07/17/2013
+	/**  
 	* @description Called by the trigger framework to carry out the actions after the record(s) are created. If there is an
 	*				existing call running on the same context, the rentrant call will utilize the handler that was created
 	*				in the original call.
@@ -62,9 +56,7 @@ public class AccountTriggerDispatcher extends TriggerDispatcherBase {
 		else execute(null, tp, TriggerParameters.TriggerEvent.afterInsert);
 	}
 
-	/** 
-	* @author Hari Krishnan
-	* @date 07/17/2013
+	/**  
 	* @description Called by the trigger framework to carry out the actions after the records are updated. If there is an
 	*				existing call running on the same context, the rentrant call will utilize the handler that was created
 	*				in the original call.
