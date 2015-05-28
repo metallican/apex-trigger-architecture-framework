@@ -1,6 +1,4 @@
-/**
-* @author Hari Krishnan
-* @date 07/16/2013
+/** 
 * @description This class implements the ITriggerDispatcher and acts as an adapter to avoid implementing all the 
 *				ITriggerDispatcher methods.
 * @return Feedback__c The newly created feedback object.
