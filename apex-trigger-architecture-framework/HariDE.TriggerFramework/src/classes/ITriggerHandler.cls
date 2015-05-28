@@ -1,6 +1,4 @@
-/**
-* @author Hari Krishnan
-* @date 07/16/2013
+/** 
 * @description Defines the interface for trigger handlers. Logic for the first time events are placed under the mainEntry 
 *				method and the logic for the subsequent events raised on the same transaction (reentrant) are placed under 
 *				the inProgressEntry method.
