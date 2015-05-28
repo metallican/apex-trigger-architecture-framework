@@ -1,6 +1,4 @@
-/**
-* @author Hari Krishnan
-* @date 07/16/2013
+/** 
 * @description This class implements the ITriggerHandler to provide abstract/virtual methods for the interface methods
 *				and so that the trigger handlers need to implement only the method that they have to. The only exception
 *				is the mainEntry, which is mandatory for the trigger handlers to implement.
