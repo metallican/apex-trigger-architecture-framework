@@ -5,9 +5,7 @@
 */
 public with sharing class TriggerFactory
 {
-    /** 
-	* @author Hari Krishnan
-	* @date 07/17/2013
+    /**  
 	* @description Creates the appropriate dispatcher and dispatches the trigger event to the dispatcher's event handler method.
 	* @param Schema.sObjectType Object type to process (SObject.sObjectType)
 	*/
@@ -19,9 +17,7 @@ public with sharing class TriggerFactory
         execute(dispatcher);
     }
 
-    /** 
-	* @author Hari Krishnan
-	* @date 07/17/2013
+    /**  
 	* @description Dispatches to the dispatcher's event handlers.
 	* @param ITriggerDispatcher A Trigger dispatcher that dispatches to the appropriate handlers
 	*/ 
@@ -53,9 +49,7 @@ public with sharing class TriggerFactory
         dispatcher.andFinally();
     } 
 
-    /** 
-	* @author Hari Krishnan
-	* @date 07/17/2013
+    /**  
 	* @description Gets the appropriate dispatcher based on the SObject. It constructs the instance of the dispatcher
 	*				dynamically using the Type API. The name of the dispatcher has to follow this format:
 	*				<ObjectName>TriggerDispatcher. For e.g. for the Feedback__c object, the dispatcher has to be named
